@@ -1,7 +1,77 @@
 body{
   padding-top:80px;
   word-wrap:break-word;
+  background-color: #bf3800;
+  color: white;
+}
+h1{
+  text-shadow: 2px 2px 4px #5d1c00;
 }
 img{
   height: 200px;
+}
+.soup{
+  height: 300px;
+}
+.col-sm-6{
+  text-align: center;
+}
+.well{
+  color: #942c00;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.rightWell{
+  margin-top: 2%;
+}
+li{
+  list-style: none;
+  font-size: 20px;
+}
+.jumbotron{
+  color: #bf3800;
+}
+.btn-warning{
+  background-color: #942c00;
+  border-color: #bf3800;
+}
+.btn-warning:hover{
+  color: #bf3800;
+  background-color: white;
+  border-color: white;
+}
+a:link, a:visited, a:active {
+  color: #5d1c00;
+}
+a:hover {
+  color: white;
+}
+.profileBody{
+  background-image: url(img/alphabetSoup.jpeg);
+  background-repeat: no-repeat;
+}
+.submitButton{
+  color: #bf3800;
+}
+.fa-arrow-up, .fa-ban{
+  color: #bf3800;
+}
+input::placeholder { 
+  color: #bf3800;
+}
+footer {
+  text-align: center;
+  font-style: italic;
+  background-color: #942c00;
+  padding: 1% 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+footer a:link{
+  color: white;
+  text-decoration: none;
+}
+footer a:visited{
+  color: white;
 }
